@@ -84,12 +84,38 @@
 											<br />
 											<p style="text-align: center;">
 												
-												<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+<!-- 												<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
   <video src="images/darkhaunting.mp4" poster="images/header.png" preload="none" onclick="if(this.paused){this.play();}else{this.pause();}" controlsList="nodownload" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%;"></video>
+</div> -->
+												
+												
+												
+												<div class="video-container">
+  <video src="images/darkhaunting.mp4" poster="images/header.png" preload="none" onclick="if(this.paused){this.play();}else{this.pause();}" controlsList="nodownload"></video>
 </div>
+
+<style>
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+  }
+  .video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+  }
+</style>
+												
+												
+												
+												
 							
 
-<!-- 												<video src="images/darkhaunting.mp4" poster="images/header.png" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%;" preload="none" onclick="if(this.paused){this.play();}else{this.pause();}" controlsList="nodownload"></video> --> -->
+<!-- 												<video src="images/darkhaunting.mp4" poster="images/header.png" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50%; height: 50%;" preload="none" onclick="if(this.paused){this.play();}else{this.pause();}" controlsList="nodownload"></video> --> 
 <!-- 														working video <video src="images/darkhaunting.mp4" poster="images/header.png" width="560" height="315" preload="none" onclick="if(this.paused){this.play();}else{this.pause();}" controlsList="nodownload" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></video> -->
 													  </div>
 											
